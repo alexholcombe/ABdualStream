@@ -309,7 +309,7 @@ if doAB:
 #For the dual-stream simultaneous target
 stimListDualStream=[]
 possibleCuePositions =  np.array([6,7,8,9,10]) 
-for task in  ['T1','T1T2']: #T1 task is just for the single-target tasks, but both streams are presented
+for task in  ['T1T2']: #T1 task is just for the single-target tasks, but both streams are presented
   for targetLeftRightIfOne in  ['left','right']: #If single target, should it be on the left or the right?
     for cuesPos in possibleCuePositions:
       for firstRespLRifTwo in ['left','right']:  #If dual target and lineup response, should left one or right one be queried first?
